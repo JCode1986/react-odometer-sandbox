@@ -1,0 +1,50 @@
+#odometer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 13%;
+  border: 3px solid black;
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px;
+  color: black;
+}
+
+span {
+  border: 3px solid black;
+  padding: 5px;
+  color: black;
+}
+
+p {
+  text-align: center;
+  margin-top: 50px
+}
+
+li {
+  display: inline;
+  padding: 50px
+}
+
+.decrement {
+  color: black;
+  background: red;
+  border: 2px solid black;
+  width: 35px;
+  height: 35px;
+  border-radius: 25px;
+  font-family: Comic Sans MS;
+  font-weight: bold;
+}
+
+.increment {
+  color: black;
+  background: green;
+  border: 2px solid black;
+  width: 35px;
+  height: 35px;
+  border-radius: 25px;
+  padding: 10px;
+  font-family: Comic Sans MS;
+  font-weight: bold;  
+}
