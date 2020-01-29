@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "./App.scss";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Odometer from "./components/Odometer/Odometer";
@@ -9,7 +9,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <Header />
-
+        <Odometer />
         <Footer />
       </React.Fragment>
     );
